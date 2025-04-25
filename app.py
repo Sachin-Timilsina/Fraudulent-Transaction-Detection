@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 import pickle
+import time
 from preprocessing import preprocess_data
 from config import MODEL_PATH, CATEGORY_ENCODER_PATH, GENDER_ENCODER_PATH
 
